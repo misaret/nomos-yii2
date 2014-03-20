@@ -1,0 +1,28 @@
+{
+    "name": "misaret/nomos-yii2",
+    "description": "Nomos Storage PHP library for Yii2",
+	"keywords": ["nomos", "yii"],
+	"homepage": "https://github.com/misaret/nomos-yii2",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Vitalii Khranivskyi",
+            "email": "misaret@gmail.com"
+        }
+    ],
+    "require": {
+		"php": ">=5.4.0",
+		"misaret/nomos-php": "dev-master"
+    },
+	"repositories": [
+		{
+			"type": "git",
+			"url": "https://github.com/misaret/nomos-php"
+		}
+	],
+	"autoload": {
+		"psr-4": {
+			"misaret\\yii\\": ""
+		}
+	}
+}
